@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elmira Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">Elmira</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">|</a></li>
+        <li><a href="https://instagram.com/atariie" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://github.com/atariie90" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://facebook.com/atariie90_" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div>
+      <h1>Elmira</h1>
+      <h1>Portfolio Website</h1>
+      <p>Frontend Developer</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-card">
+      <div class="about-info">
+        <h2>I'm <span>Elmira</span></h2>
+        <p>
+          I am a frontend developer and website designer, my full name is Elmira Meisha Lestari, I'm from Taruna Bhakti Vocational High School.
+        </p>
+        <a href="/assets/CV ELMIRA CANVA.pdf" class="cv-download" style="color: black; text-decoration: none;" download>Download CV</a>
+      </div>
+      <img src="/img/elmira.jpg" alt="Profile Picture" />
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skill">
+    <h2 style="margin-inline: 600px; color: white;">My Skill</h2>
+    <p style="text-align: center; color: white;">Here is my skill, and my future skills.</p>
+    <div class="skills-container">
+      <div class="skill"><img src="/logo/figma.png" alt="Figma" /></div>
+      <div class="skill"><img src="/logo/social.png" alt="CSS3" /></div>
+      <div class="skill"><img src="/logo/html-5.png" alt="HTML5" /></div>
+      <div class="skill"><img src="/logo/illustrator.png" alt="Adobe Illustrator" /></div>
+      <div class="skill"><img src="/logo/java-script.png" alt="JavaScript" /></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="project">
+    <h2 style="margin-inline: 600px; color: white;">My Project</h2>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="/img/photo_2024-10-17_09-15-06.jpg" alt="Project 1" />
+      </div>
+      <div class="project-info">
+        <h3>Project 1</h3>
+        <p>In this project, my friend and I created a UI UX design for a book borrowing application in Figma.</p>
+        <br />
+        <a href="https://www.figma.com/design/lQFa75hFcMEEayQnSk1YNV/peminjaman-buku-UI?node-id=0-1&node-type=canvas&t=8pP7SwQaauFXXjSm-0" target="_blank">
+          <button class="btn-2">See Project</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="/img/photo_2024-09-02_19-03-27.jpg" alt="Project 2" />
+      </div>
+      <div class="project-info">
+        <h3>Project 2</h3>
+        <p>This project I made Doraemon using Adobe Illustrator.</p>
+        <br />
+        <a href="https://www.instagram.com/p/C_ahdCTSoHp/?igsh=MWM2cWliang3eWs2Mw==" target="_blank">
+          <button class="btn-2">See Project</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="/img/Annotation 2024-11-26 091022.png" alt="Project 3" />
+      </div>
+      <div class="project-info">
+        <h3>Project 3</h3>
+        <p>In this project I created a BMW logo using Adobe Illustrator.</p>
+        <br />
+        <a href="https://www.instagram.com/p/C_ahdCTSoHp/?igsh=MWM2cWliang3eWs2Mw==" target="_blank">
+          <button class="btn-2">See Project</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h1>Contact Me</h1>
+      <div class="form-container">
+        <form class="contact-form" action="https://formspree.io/f/mjkvdejr" method="POST">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Your message..." required></textarea>
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Let's Connect To My Social Media</p>
+    <div class="social-icons">
+      <a href="https://facebook.com/atariie90" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://github.com/atariie90" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com/atariie" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="credits">©2024 Made By Elmira</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
