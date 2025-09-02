@@ -51,27 +51,27 @@ nav ul{
       transition: all 0.3s;
   }
 
-  .Home {
-    text-align: center;
-    padding: 60px 20px;
-  }
-  
-  .Home h1 {
-    font-size: 48px;
-    color: white;
-  }
-  
-  .Home h2 {
-    font-size: 32px;
-    color: white;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .Home p {
-    margin: 20px;
-    color: #fff;
-    transition: opacity 1.5s ease-in-out;
-  }
+  .home {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.home h1 {
+  font-size: 48px;
+  color: white;
+}
+
+.home h2 {
+  font-size: 32px;
+  color: white;
+  transition: opacity 1s ease-in-out;
+}
+
+.home p {
+  margin: 20px;
+  color: #fff;
+  transition: opacity 1.5s ease-in-out;
+}
 
 /* About Section */
 .about {
